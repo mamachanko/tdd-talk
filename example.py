@@ -1,17 +1,13 @@
 import unittest
 
 
-def my_function():
-    return True
-
-
 class SomeTest(unittest.TestCase):
 
     def test_asserts_true(self):
-        self.assertTrue(my_function())
+        self.assertTrue(True)
 
     def test_asserts_false(self):
-        self.assertFalse(my_function())
+        self.assertFalse(False)
 
     def test_asserts_equality(self):
         self.assertEqual(4, 4)

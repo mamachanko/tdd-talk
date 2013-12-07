@@ -2,12 +2,19 @@ import unittest
 
 
 def add(x, y):
-    for z in range(y):
-        x = x + 1
+    for z in range(abs(y)):
+        if y > 0:
+            x += 1
+        else:
+            x += -1
     return x
 
 
 class AddTest(unittest.TestCase):
+
+    def test_returns_0_plus_0(self):
+        result = add(0, 0)
+        self.assertEqual(0, result)
 
     def test_returns_1_plus_1(self):
         result = add(1, 1)
