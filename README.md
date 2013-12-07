@@ -53,5 +53,17 @@ Given we run a webshop and customers can compile an order consisting of several 
 
 
 ## Vowel counter
+Write a program that counts the vowels in a string.
+
+ 1. Given some input string the number of vowels should be returned.
+ 2. Given some inut string the frequency of each vowel should be returned.
+ 3. Givem some input string the most-frequent vowel should be returned.
+
 
 ## FizzBuzz
+Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both  three and five print "FizzBuzz".
+
+ 1. Print numbers from 1 to 100
+ 2. Print "Fizz" instead of number which is divisible by 3
+ 3. Print "Buzz" instead of number which is divisible by 5
+ 4. Print "FizzBuzz" instead of number which is divisible by both 3 and 5
