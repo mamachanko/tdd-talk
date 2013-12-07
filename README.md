@@ -31,10 +31,16 @@ You may want to use this Python `unittest` template.
 You can now run your test like this:
 
 ```bash
-   $: python thatfile.py
+    $: python thatfile.py
 ```
 
 Maybe you want to install `watchdog`.
+```bash
+    $: pip install watchdog
+```
+Now you can run your tests each time you save `thatfile.py`.
+```bash
+    $: watchmedo shell-command --patterns="*.py" --command="clear; python thatfile.py" .
 ```
  
 
