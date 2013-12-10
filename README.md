@@ -11,21 +11,21 @@ You may want to use this Python `unittest` template.
 
 ```python
 
-	import unittest
+import unittest
 
-	# here goes your production code
+# here goes your production code
 
-	class SomeTest(unittest.TestCase):
+class SomeTest(unittest.TestCase):
 
-		def test_fail(self):
-			self.fail()
+	def test_fail(self):
+		self.fail()
 
-		def test_something(self):
-			self.assertTrue(True)
+	def test_something(self):
+		self.assertTrue(True)
 
 
-	if __name__ == '__main__':
-		unittest.run()
+if __name__ == '__main__':
+	unittest.main()
 ```
 
 You can now run your test like this:
