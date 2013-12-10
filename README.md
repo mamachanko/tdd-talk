@@ -67,3 +67,13 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
  2. Print "Fizz" instead of number which is divisible by 3
  3. Print "Buzz" instead of number which is divisible by 5
  4. Print "FizzBuzz" instead of number which is divisible by both 3 and 5
+ 
+## Find _more_ here
+ 
+ * http://codingdojo.org/cgi-bin/wiki.pl?KataCatalogue
+ * http://codekata.pragprog.com/codekata/
+ * http://codingkata.net/
+ * http://osherove.com/tdd-kata-1/
+ * http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
+ * https://sites.google.com/site/tddproblems/all-problems-1
+ 
